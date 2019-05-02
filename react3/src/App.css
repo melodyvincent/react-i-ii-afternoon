@@ -1,0 +1,78 @@
+
+body{
+  margin: 0;
+  padding: 0;
+
+
+}
+.Header{
+  height: 75px;
+  width: 100vw;
+  background: #36a5dd;
+  display: flex;
+  align-items: center;
+ 
+}
+.header-text{
+  margin-left:20px;
+}
+.data-display{
+  background: #222222;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+
+
+}
+.data-users{
+  min-height: 400px;
+  width: 80vw;
+  background: #e2e4e4;
+  margin-top: 100px;
+
+}
+.index-number{
+  position: fixed;
+  right: 11vw;
+  margin:0;
+
+}
+.names{
+  margin-left: 50px;
+}
+
+.first-last{
+  display: flex;
+
+}
+
+.first-last h2{
+  border-bottom: 1px solid #36a5dd;
+
+}
+.user-info {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  height: 30px;
+}
+
+.user-info h3{
+  margin-right: 5px;
+}
+
+.nav-button{
+  display: flex;
+  justify-content: space-between;
+  width:80vw;
+}
+
+
+
+
+
+
+
+
